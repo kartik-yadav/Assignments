@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question12</title>
+    <link href="twelve.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <header class="headerDiv">
+        <!-- <ul class="logo">
+          <li><h1>TO THE NEW</h1></li>
+        </ul> -->
+        <h1 class="logo">TO THE New</h1>
+        <ul class="menu">
+          <li>Home</li>
+          <li>Quick Help</li>
+        </ul>
+      </header>
+
+      <!-- <br /><br /> -->
+      <div class="formDiv">
+        <div class="report"><h2>Bug Report</h2></div>
+        <form class="formall">
+          <!-- <div class="formall"> -->
+          <div>
+            <label for="title">Title:*</label>
+            <input type="text" id="title" name="title" />
+          </div>
+          <div>
+            <label for="desc">Description:</label>
+            <textarea id="desc" rows="4" cols="50"></textarea>
+          </div>
+          <div>
+            <label for="os">Operating System:</label>
+            <select id="os" name="os">
+              <option value="windowsxp">Windows XP</option>
+              <option value="linux">Linux</option>
+              <option value="mac">Mac</option>
+            </select>
+          </div>
+        <div>
+          <label for="product"> Product:*</label>
+          <select id="product" name="product">
+            <option value="Formoid">Formoid</option>
+            <option value="formoid1">Formoid 1</option>
+            <option value="formoid2">Formoid 2</option>
+          </select>
+        </div>
+      <div>
+          <label style="display: block;" for="version">Version:*</label>
+          <input
+            style="display: block;"
+            type="text"
+            id="version"
+            name="version"
+            style="width: 100px;"
+          />
+        </div>
+      
+          <label style="display: block;" for="license">License:</label>
+          <label class="radio-inline">
+            <input type="radio" name="optradio" />Free
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="optradio" />Business
+          </label>
+         
+      
+          <label for="Severity" class="serv"> Severity:</label>
+          <select id="Severity" name="Severity">
+            <option value="critical">Critical</option>
+            <option value="critical">Critical 1</option>
+            <option value="critical2">Critical 2</option>
+          </select>
+        
+          <label for="Attachments"> Attachments:</label>
+          <input
+            class="attach"
+            type="text"
+            placeholder="No File Selected"
+            name="search"
+          />
+          <button class="chbtn" type="submit">Choose File</button>
+
+          <!-- </div> -->
+          <div class="endForm">
+            <input class="submit" type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+      <!----end of form div-->
+
+      <!-- <br /><br /> -->
+    </div>
+    <!----end of main div------>
+  </body>
+</html>

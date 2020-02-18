@@ -1,0 +1,75 @@
+header img {
+  float: left;
+  padding: 10px;
+}
+
+.login {
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.clearfix {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+nav {
+  float: left;
+  display: inline-block;
+  width: 10%;
+  height: 700px;
+  border-right: 1px solid;
+}
+.mainsection {
+  float: left;
+  width: 89%;
+}
+
+.small {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.big {
+  float: left;
+  padding: 10px;
+}
+
+.cleft {
+  float: left;
+}
+.phead {
+  padding-top: 20px;
+}
+.dinline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.dblock {
+  display: block;
+}
+.cmargin {
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid;
+  width: 70%;
+  height: 40%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+table td,
+table th {
+  border: 1px solid;
+}
+ul li {
+  list-style-type: none;
+}

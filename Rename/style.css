@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "HR";
+  src: url("./fonts/Helvetica-R.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "HR";
+}
+
+.clearfix,
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+header {
+  background: #3a5898;
+  color: white;
+  padding: 20px 130px 10px 160px;
+}
+header h1 {
+  display: inline-block;
+  margin-top: 10px;
+
+  font-size: 40px;
+}
+header form {
+  float: right;
+}
+header button {
+  color: white;
+  padding: 5px;
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+}
+.headings {
+  display: inline-block;
+}
+header form label {
+  font-size: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+header form p {
+  color: #918fad;
+  font-size: 10px;
+  margin-top: 5px;
+  padding-left: 193px;
+}
+section {
+  background: linear-gradient(0deg, #d4d9e8, #fffeff);
+  padding: 30px 20px 20px 180px;
+}
+.left h3 {
+  margin-top: 15px;
+  color: #27395f;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.left {
+  width: 40%;
+  display: inline-block;
+}
+.right {
+  float: right;
+  width: 40%;
+  display: inline-block;
+}
+.birthday,
+.gender {
+  display: block;
+  color: #90949b;
+  font-weight: bold;
+  letter-spacing: .3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+span a{
+    text-decoration: none;
+}
+span a:hover{
+    text-decoration: underline;
+}
+.signup{
+    background: #5c9549;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    border-radius: 5%;
+    font-size: large;
+
+}

@@ -16,25 +16,26 @@ header {
   background-color: rgba(78, 78, 92, 0.7);
   display: flex;
 }
-.heading{
+.heading {
   width: 25%;
   display: flex;
   justify-content: space-around;
   margin-left: 40px;
 }
-.heading p{
+.heading p {
   margin-top: 20px;
   color: white;
 }
-header nav{
+header nav {
   width: 40%;
   display: flex;
   justify-content: space-around;
   margin-right: 40px;
 }
-.heading img{
+.heading img {
   height: 60px;
   width: 200px;
+  margin-bottom: 20px;
 }
 header nav {
   color: white;
@@ -44,33 +45,33 @@ header nav a {
   text-decoration: none;
   color: white;
 }
-.wrapA{
-    background-image: url(./img/handshake.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
+.wrapA {
+  background-image: url(./img/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
 }
-.content{
+.content {
   align-self: center;
   margin-left: 18%;
   color: white;
   text-align: center;
 }
-.content h1{
+.content h1 {
   font-size: 50px;
 }
 
-.wrapA ul{
+.wrapA ul {
   margin-left: 10%;
   margin-top: 20px;
 }
-.wrapA ul li{
+.wrapA ul li {
   display: inline-block;
-color: white;
+  color: white;
 }
 
-.content button{
+.content button {
   color: white;
   padding: 10px 30px;
   background: #ed643d;
@@ -78,54 +79,52 @@ color: white;
   border: none;
   margin-top: 30px;
 }
-.wrapB{
+.wrapB {
   padding: 50px 200px;
- 
+
 }
 
-.wrapBmain{
+.wrapBmain {
   display: flex;
-  box-shadow: 0px 0px 6px 6px #dee1e6; 
-  align-items: center;
+  box-shadow: 0px 0px 6px 6px #dee1e6;
 
 }
-.wrapBleft{
+.wrapBleft {
   padding: 1rem;
 }
-.wrapBleft img{
-  border-radius: 10px; 
+.wrapBleft img {
+  border-radius: 10px;
   height: 300px;
   width: 500px;
 }
-.wrapBright{
+.wrapBright {
   display: flex;
   flex-direction: column;
   margin-top: 35px;
   height: 300px;
- 
 }
-.rightsame{
+.rightsame {
   display: flex;
   align-items: center;
   margin: 8px 5px;
 }
 
-.rightsame img{
+.rightsame img {
   height: 60px;
   width: 100px;
   margin: 5px 1rem;
   border-radius: 5px;
 }
-.rightsame h4{
+.rightsame h4 {
   font-size: 14px;
 }
 
-.rightsame p{
+.rightsame p {
   font-size: 12px;
   color: #a4a9b4;
   font-weight: bold;
 }
-.wrapB h2{
+.wrapB h2 {
   font-size: 25px;
   text-align: center;
   color: #2a3848;
@@ -133,50 +132,64 @@ color: white;
   margin-bottom: 30px;
 }
 
-.wrapC h2{
+.wrapC{
+  background: #f6f8fb;
+  padding: 50px 207px;
+}
+.partner{
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 6px 6px #dee1e6;
+  
+}
+.partner img{
+  border: 1px solid #f6f8fb;
+}
+.wrapC h2 {
+  font-size: 25px;
+  text-align: center;
+  color: #2a3848;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.wrapD h2 {
+  margin-top: 50px;
   font-size: 25px;
   text-align: center;
   color: #2a3848;
   font-size: 2rem;
 }
-.wrapD h2{
-  font-size: 25px;
-  text-align: center;
-  color: #2a3848;
-  font-size: 2rem;
-}
-.wrapD form{
+.wrapD form {
   display: flex;
   flex-direction: column;
   margin: 50px 200px;
 }
-.wrapD form label{
+.wrapD form label {
   display: block;
   font-size: 12px;
   color: #a4a9b4;
 }
-.fsone{
+.fsone {
   display: flex;
 }
-.fstwo{
+.fstwo {
   flex: 1;
   margin: 15px 10px;
-} 
-.fstwo input{
+}
+.fstwo input {
   padding: 8px;
   border: 1px solid #dee1e6;
   border-radius: 5px;
   width: 100%;
 }
-.fstwo textarea{
+.fstwo textarea {
   width: 100%;
   height: 150px;
   padding: 8px;
   border: 1px solid #dee1e6;
   border-radius: 5px;
-
 }
-.wrapD form button{
+.wrapD form button {
   color: white;
   padding: 15px 30px;
   background: #ed643d;
@@ -186,5 +199,51 @@ color: white;
   font-weight: bolder;
   width: 15%;
   margin-left: 43%;
-  
+}
+footer{
+  background: #6058cd;
+  padding: 30px 100px;
+}
+.upper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+}
+.upper h3{
+  font-size: 2rem;
+  color: white;
+  margin: 0 30px;
+}
+.upper button{
+  color: white;
+  padding: 15px 40px;
+  background: #ed643d;
+  border-radius: 30px;
+  border: none;
+  font-weight: bolder;
+  font-size: 1rem;
+  height: 48px;
+}
+.lower{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.lowerleft p i{
+  color: white;
+  margin-right: 5px;
+}
+.lowerleft p{
+  color: white;
+
+}
+.lowerright p{
+  text-align: right;
+  color: white;
+}
+.lowerright h3{
+  text-align: right;
+  color: white;
+  font-size: 1.5rem;
 }

@@ -1,0 +1,28 @@
+.list {
+  color: #fff;
+  margin: 20px 30px;
+  background-color: #bf07ac;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.list button {
+  border-radius: 5px;
+  border: 0;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.title,
+.quantity {
+  width: 120px;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.title:focus,
+.quantity:focus {
+  outline: none;
+}
